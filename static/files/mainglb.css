@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: #000;
+	background-color: gray;
 	color: #fff;
 	font-family: Monospace;
 	font-size: 13px;
@@ -81,4 +81,9 @@ a, button, input, select {
 	background-color: #f00;
 	margin-top: 20px;
 	padding: 10px;
+}
+
+output { 
+	padding: 0 3px;
+	color:khaki;
 }
