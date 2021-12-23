@@ -1,0 +1,28 @@
+{
+  "name": "model-optimiser-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gltfpack": "gltfpack",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --mode development",
+    "start:server": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "Nectire",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gltfpack": "^0.17.0",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.15",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
